@@ -1,28 +1,28 @@
 
 #binary search algorithm (simple)
-# array = [11, 21, 31, 41, 51, 61, 71, 81, 91]
-# flag = True
-# number = int(input("Enter your number: "))
-# length = len(array)
+array = [11, 21, 31, 41, 51, 61, 71, 81, 91]
+flag = True
+number = int(input("Enter your number: "))
+length = len(array)
 
-# mid = length // 2
+mid = length // 2
 
-# if array[mid] == number:
-#     print("Found")
+if array[mid] == number:
+    print("Found")
 
-# if number < array[mid]:
-#     while flag:
-#         mid = (0 + mid) // 2
-#         if array[mid] == number:
-#             print("Found")
-#             exit()
+if number < array[mid]:
+    while flag:
+        mid = (0 + mid) // 2
+        if array[mid] == number:
+            print("Found")
+            exit()
 
-# if number > array[mid]:
-#     while flag:
-#         mid = (((mid+1) + (len(array)-1))) // 2
-#         if array[mid] == number:
-#             print("Found")
-#             exit()
+if number > array[mid]:
+    while flag:
+        mid = (((mid+1) + (len(array)-1))) // 2
+        if array[mid] == number:
+            print("Found")
+            exit()
 
 
 #binary search algorithm (complex)
